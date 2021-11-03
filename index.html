@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
+<script src="./p5.play.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+      <script type="module">
+        const firebaseConfig = {
+          apiKey: "AIzaSyCpVl4NXDmCDYGbB4jDsT8os6EyqGSJNlM",
+          authDomain: "multijugador--test.firebaseapp.com",
+          databaseURL: "https://multijugador--test-default-rtdb.firebaseio.com",
+          projectId: "multijugador--test",
+          storageBucket: "multijugador--test.appspot.com",
+          messagingSenderId: "593963281134",
+          appId: "1:593963281134:web:47c1d61a09c815a49fe1ff"
+        };
+      
+        // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      </script>
+  </body>
+</html>
